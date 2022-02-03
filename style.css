@@ -1,0 +1,99 @@
+.introduction {
+
+}
+
+h1 {
+  color: #B08968;
+  font-family: 'Fasthand', cursive;
+  font-size: 40px;
+  line-height: 2.5
+}
+
+h2 {
+  color: #B08968;
+  font-family:'Homemade Apple', cursive;
+  font-size: 25px;
+  line-height: 2.5;
+}
+
+body {
+  background-color: #F5EBE0;
+}
+
+p {
+  color: #774936;
+  font-family:'Space Mono', monospace;
+  font-size: 13px;
+  line-height: 2
+}
+
+h3 {
+  color: #C38E70;
+  font-family:'Tillana', cursive;
+  font-size: 25px;
+  line-height: 2;
+}
+
+#luzpic {
+  width: 120px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.socialmedia {
+  color: #B07D62 !important;
+}
+
+.container {
+  width: 500 px;
+  margin: 40px auto;
+  background-color: FAF5F0;
+}
+
+.list-inline > li {
+  display: inline;
+  list-style: none;
+  padding-left: 0 px;
+}
+
+.card-light {
+  background-color: #FAF5F0;
+  padding: 50px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 10px;
+  margin: 100px 300px;
+  text-align: center;
+}
+
+.card-light2 {
+  background-color: #FAF5F0;
+  padding: 50px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 10px;
+  margin: 100px 300px;
+  text-align: center;
+}
+
+.socialmedia {
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
